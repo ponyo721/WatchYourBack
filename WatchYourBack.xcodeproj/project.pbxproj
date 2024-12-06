@@ -13,6 +13,20 @@
 		AD558B962D030FAF00CFEB00 /* WatchYourBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558B952D030FAF00CFEB00 /* WatchYourBackTests.swift */; };
 		AD558BA02D030FAF00CFEB00 /* WatchYourBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558B9F2D030FAF00CFEB00 /* WatchYourBackUITests.swift */; };
 		AD558BA22D030FAF00CFEB00 /* WatchYourBackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BA12D030FAF00CFEB00 /* WatchYourBackUITestsLaunchTests.swift */; };
+		AD558BC02D03192300CFEB00 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BAE2D03192300CFEB00 /* UIManager.swift */; };
+		AD558BC12D03192300CFEB00 /* ScreenSaverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BAF2D03192300CFEB00 /* ScreenSaverManager.swift */; };
+		AD558BC22D03192300CFEB00 /* SystemEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB02D03192300CFEB00 /* SystemEventHandler.swift */; };
+		AD558BC32D03192300CFEB00 /* ScreenSaverStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB12D03192300CFEB00 /* ScreenSaverStatus.swift */; };
+		AD558BC42D03192300CFEB00 /* KeyboardEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB42D03192300CFEB00 /* KeyboardEventHandler.swift */; };
+		AD558BC52D03192300CFEB00 /* MouseEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB52D03192300CFEB00 /* MouseEventHandler.swift */; };
+		AD558BC62D03192300CFEB00 /* SysWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB62D03192300CFEB00 /* SysWindowManager.swift */; };
+		AD558BC72D03192300CFEB00 /* TimerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB72D03192300CFEB00 /* TimerUtil.swift */; };
+		AD558BC82D03192300CFEB00 /* CustomCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BB92D03192300CFEB00 /* CustomCheckBox.swift */; };
+		AD558BC92D03192300CFEB00 /* CustomCheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD558BBA2D03192300CFEB00 /* CustomCheckBox.xib */; };
+		AD558BCA2D03192300CFEB00 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BBB2D03192300CFEB00 /* SettingVC.swift */; };
+		AD558BCB2D03192300CFEB00 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD558BBC2D03192300CFEB00 /* SettingVC.xib */; };
+		AD558BCC2D03192300CFEB00 /* SettingWC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD558BBD2D03192300CFEB00 /* SettingWC.swift */; };
+		AD558BCD2D03192300CFEB00 /* SettingWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD558BBE2D03192300CFEB00 /* SettingWC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +57,21 @@
 		AD558B9B2D030FAF00CFEB00 /* WatchYourBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchYourBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD558B9F2D030FAF00CFEB00 /* WatchYourBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchYourBackUITests.swift; sourceTree = "<group>"; };
 		AD558BA12D030FAF00CFEB00 /* WatchYourBackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchYourBackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD558BAE2D03192300CFEB00 /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		AD558BAF2D03192300CFEB00 /* ScreenSaverManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSaverManager.swift; sourceTree = "<group>"; };
+		AD558BB02D03192300CFEB00 /* SystemEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemEventHandler.swift; sourceTree = "<group>"; };
+		AD558BB12D03192300CFEB00 /* ScreenSaverStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSaverStatus.swift; sourceTree = "<group>"; };
+		AD558BB32D03192300CFEB00 /* CustomScreenSaver-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CustomScreenSaver-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD558BB42D03192300CFEB00 /* KeyboardEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardEventHandler.swift; sourceTree = "<group>"; };
+		AD558BB52D03192300CFEB00 /* MouseEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseEventHandler.swift; sourceTree = "<group>"; };
+		AD558BB62D03192300CFEB00 /* SysWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SysWindowManager.swift; sourceTree = "<group>"; };
+		AD558BB72D03192300CFEB00 /* TimerUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerUtil.swift; sourceTree = "<group>"; };
+		AD558BB92D03192300CFEB00 /* CustomCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCheckBox.swift; sourceTree = "<group>"; };
+		AD558BBA2D03192300CFEB00 /* CustomCheckBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCheckBox.xib; sourceTree = "<group>"; };
+		AD558BBB2D03192300CFEB00 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		AD558BBC2D03192300CFEB00 /* SettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		AD558BBD2D03192300CFEB00 /* SettingWC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingWC.swift; sourceTree = "<group>"; };
+		AD558BBE2D03192300CFEB00 /* SettingWC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +122,16 @@
 		AD558B842D030FAE00CFEB00 /* WatchYourBack */ = {
 			isa = PBXGroup;
 			children = (
-				AD558B852D030FAE00CFEB00 /* AppDelegate.swift */,
-				AD558B872D030FAF00CFEB00 /* Assets.xcassets */,
-				AD558B892D030FAF00CFEB00 /* MainMenu.xib */,
 				AD558B8C2D030FAF00CFEB00 /* WatchYourBack.entitlements */,
+				AD558B852D030FAE00CFEB00 /* AppDelegate.swift */,
+				AD558BAF2D03192300CFEB00 /* ScreenSaverManager.swift */,
+				AD558BB02D03192300CFEB00 /* SystemEventHandler.swift */,
+				AD558BAE2D03192300CFEB00 /* UIManager.swift */,
+				AD558B872D030FAF00CFEB00 /* Assets.xcassets */,
+				AD558BB22D03192300CFEB00 /* data_model */,
+				AD558B892D030FAF00CFEB00 /* MainMenu.xib */,
+				AD558BBF2D03192300CFEB00 /* ui */,
+				AD558BB82D03192300CFEB00 /* util */,
 			);
 			path = WatchYourBack;
 			sourceTree = "<group>";
@@ -116,6 +151,39 @@
 				AD558BA12D030FAF00CFEB00 /* WatchYourBackUITestsLaunchTests.swift */,
 			);
 			path = WatchYourBackUITests;
+			sourceTree = "<group>";
+		};
+		AD558BB22D03192300CFEB00 /* data_model */ = {
+			isa = PBXGroup;
+			children = (
+				AD558BB12D03192300CFEB00 /* ScreenSaverStatus.swift */,
+			);
+			path = data_model;
+			sourceTree = "<group>";
+		};
+		AD558BB82D03192300CFEB00 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				AD558BB32D03192300CFEB00 /* CustomScreenSaver-Bridging-Header.h */,
+				AD558BB42D03192300CFEB00 /* KeyboardEventHandler.swift */,
+				AD558BB52D03192300CFEB00 /* MouseEventHandler.swift */,
+				AD558BB62D03192300CFEB00 /* SysWindowManager.swift */,
+				AD558BB72D03192300CFEB00 /* TimerUtil.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		AD558BBF2D03192300CFEB00 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				AD558BB92D03192300CFEB00 /* CustomCheckBox.swift */,
+				AD558BBA2D03192300CFEB00 /* CustomCheckBox.xib */,
+				AD558BBB2D03192300CFEB00 /* SettingVC.swift */,
+				AD558BBC2D03192300CFEB00 /* SettingVC.xib */,
+				AD558BBD2D03192300CFEB00 /* SettingWC.swift */,
+				AD558BBE2D03192300CFEB00 /* SettingWC.xib */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD558B882D030FAF00CFEB00 /* Assets.xcassets in Resources */,
+				AD558BCB2D03192300CFEB00 /* SettingVC.xib in Resources */,
 				AD558B8B2D030FAF00CFEB00 /* Base in Resources */,
+				AD558BCD2D03192300CFEB00 /* SettingWC.xib in Resources */,
+				AD558BC92D03192300CFEB00 /* CustomCheckBox.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD558BC22D03192300CFEB00 /* SystemEventHandler.swift in Sources */,
+				AD558BC82D03192300CFEB00 /* CustomCheckBox.swift in Sources */,
+				AD558BCC2D03192300CFEB00 /* SettingWC.swift in Sources */,
 				AD558B862D030FAE00CFEB00 /* AppDelegate.swift in Sources */,
+				AD558BC42D03192300CFEB00 /* KeyboardEventHandler.swift in Sources */,
+				AD558BC72D03192300CFEB00 /* TimerUtil.swift in Sources */,
+				AD558BC62D03192300CFEB00 /* SysWindowManager.swift in Sources */,
+				AD558BC02D03192300CFEB00 /* UIManager.swift in Sources */,
+				AD558BCA2D03192300CFEB00 /* SettingVC.swift in Sources */,
+				AD558BC32D03192300CFEB00 /* ScreenSaverStatus.swift in Sources */,
+				AD558BC52D03192300CFEB00 /* MouseEventHandler.swift in Sources */,
+				AD558BC12D03192300CFEB00 /* ScreenSaverManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

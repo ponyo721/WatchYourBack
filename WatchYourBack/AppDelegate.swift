@@ -1,20 +1,26 @@
 //
 //  AppDelegate.swift
-//  WatchYourBack
+//  CustomScreenSaver
 //
-//  Created by George on 12/6/24.
+//  Created by byeongho park on 11/25/24.
 //
 
 import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet var window: NSWindow!
-
+    let screenSaverManager: ScreenSaverManager = ScreenSaverManager()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        // check Accessability permission
+        NSLog("[CustomScreenSaver] applicationDidFinishLaunching")
+        if AXIsProcessTrusted() {
+            NSLog("AXIsProcessTrusted ON")
+        }else {
+            NSLog("AXIsProcessTrusted OFF")
+        }
+        
+        screenSaverManager.initailize()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
